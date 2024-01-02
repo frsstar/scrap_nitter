@@ -59,7 +59,7 @@ pool_req= ['nitter.moomoo.me' ,'nitter.unixfox.eu',
 
 #  Scrap Beutiuful Soap
 quotes = []  # a list to store quotes
-uri ='?f=tweets&q='+user_input_search+'&since='+user_input_date_from+'&until='+user_input_date_till+'&near='
+uri ='?f=tweets&q='+user_input_search+'&e-nativeretweets=on&e-replies=on&since='+user_input_date_from+'&until='+user_input_date_till+'&near=indonesia'
 i  = 0
 while True :
     r = 0
